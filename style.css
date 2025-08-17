@@ -28,7 +28,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(15, 23, 42, 0.95);
+    background: rgba(15, 23, 42, 0.75);
     backdrop-filter: blur(10px);
     z-index: 1000;
     padding: 1rem 0;
@@ -204,6 +204,12 @@ section {
     font-size: 4rem;
     color: white;
     margin: 0 auto;
+}
+
+.profile-img img{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
 }
 
 .about-text h3 {
